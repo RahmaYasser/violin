@@ -25,6 +25,9 @@ pipeline {
         }
   }
   post {
+      always {
+          sh 'docker logout'
+      }
       success {
           echo "Image build and published to ${NAMESPACE}/${IMAGE}:${TAG_NUMBER} successfully"
       }
