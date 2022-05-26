@@ -82,6 +82,6 @@ You can specify any directory for mount (ex: jenkins_home)
 
 2. Add hostname to /etc/hosts
 
-ex: `go-violin.com <IP>`
+ex: `go-violin.com <IP>:<Port>`
 
 3. Type the hostname in browser after running jenkins pipeline
