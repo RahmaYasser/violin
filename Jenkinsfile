@@ -9,7 +9,7 @@ pipeline {
         CONTEXT_NAME='minikube'
         CLUSTER_NAME='minikube'
         SERVER_URL='https://192.168.49.2:8443'
-        SLACK_CHANNEL='devops-studying-and-getting-help'
+        SLACK_CHANNEL='devops-team'
     }
     stages {
         stage('Building image') {
